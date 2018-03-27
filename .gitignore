@@ -1,3 +1,5 @@
+# This is a generic ignore file I have collected for myself
+
 # Logs
 logs
 *.log
@@ -57,3 +59,8 @@ typings/
 # dotenv environment variables file
 .env
 
+#Ignore .pid files
+.pid
+
+
+id_rsa

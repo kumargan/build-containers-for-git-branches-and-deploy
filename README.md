@@ -32,11 +32,15 @@ Prerequsites :
 1. docker, java, node, maven
 
 2. steps to start server
-	export AWS_ACCESS_KEY_ID=
-	export AWS_SECRET_ACCESS_KEY=
-	export slack_webhook_url=
+
+	export AWS_ACCESS_KEY_ID=``
+
+	export AWS_SECRET_ACCESS_KEY=``
+	
+	export slack_webhook_url=``
 
 	2.1. start docker
 		sh run.sh docker
+
 	2.2. start node ( do not use now )
 		sh run.sh //this does not work as it is not able to push the code to repo

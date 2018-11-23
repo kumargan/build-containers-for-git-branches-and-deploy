@@ -6,11 +6,11 @@ build_logs=`pwd`build.logs
 echo "log path " $build_logs
 echo "starting build"
 
-repoName=customer-insights-360-view
-dockerLocalRepo=customer-insights:latest
-dockerRemoteRepo=650377115526.dkr.ecr.us-east-1.amazonaws.com/customer-insights-dev:latest
-ecsServiceName=customer-insights-dev
-ecsClusterName=ti-use-bigdata-web-app-ECS
+repoName=git-repo-name
+dockerLocalRepo=local-repo-name:latest
+dockerRemoteRepo=account.dkr.ecr.us-east-1.amazonaws.com/image-name:latest
+ecsServiceName=service-name
+ecsClusterName=cluster-name
 
 if [ -d "$repoName" ]; then
 	echo " repo already available " > $build_logs
